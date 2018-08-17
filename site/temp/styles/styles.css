@@ -354,6 +354,7 @@ img {
 .top-hero {
   position: relative;
 
+
 }
 
 .top-hero__text-content {
@@ -364,13 +365,33 @@ img {
     left: 0;
     width: 100%;
     text-align: center;
-
   }
 
 .top-hero__title {
     color: #fff;
     font-family:'Tangerine', cursive;
     text-shadow: 2px 2px #000;
-    font-size: 8.75rem;
+    font-size: 4rem;
     font-weight: 300;
+  }
+
+@media (min-width: 530px) {
+
+.top-hero__title {
+      font-size: 6rem
+  }
+  }
+
+@media (min-width: 800px) {
+
+.top-hero__title {
+      font-size: 7.5rem
+  }
+  }
+
+@media (min-width: 1200px) {
+
+.top-hero__title {
+      font-size: 8.75rem
+  }
   }
