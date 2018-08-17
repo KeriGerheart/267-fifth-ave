@@ -395,3 +395,14 @@ img {
       font-size: 8.75rem
   }
   }
+
+.wrapper {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.section-heading {
+  color: #946f56;
+  font-family:'Tangerine', cursive;
+  text-align: center;
+}
