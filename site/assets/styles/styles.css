@@ -4,4 +4,5 @@
 @import "base/_mixins";
 @import "modules/_top-hero";
 @import "modules/_wrapper";
-@import "modules/_section-heading"
+@import "modules/_section-heading";
+@import "modules/_page-section";
